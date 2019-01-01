@@ -12,17 +12,8 @@ public class MainProgram {
 
     public static void main(String[] args) throws InterruptedException {
 
-
-        //TestChome chome = new TestChome();                        //1
-        //chome.testChrome();
-        TestFirefox testMozilla = new TestFirefox();              //2
-        testMozilla.testFirefox();
-        //LoginPassword loginPassword = new LoginPassword();        //3
-
-        //TestCapabilities test1 = new TestCapabilities();
-        //test1.startTest();
-
-
+        //test login and password
+        LoginPassword loginPassword = new LoginPassword();
 
     }
 }
