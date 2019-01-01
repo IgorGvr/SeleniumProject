@@ -15,5 +15,7 @@ public class MainProgram {
         //test login and password
         LoginPassword loginPassword = new LoginPassword();
 
+        TestChome tChome = new TestChome();
+        tChome.testChrome();
     }
 }
