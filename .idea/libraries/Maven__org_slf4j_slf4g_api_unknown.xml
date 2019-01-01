@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.slf4j:slf4g-api:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4g-api/unknown/slf4g-api-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4g-api/unknown/slf4g-api-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4g-api/unknown/slf4g-api-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
