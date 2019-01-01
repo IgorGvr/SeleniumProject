@@ -9,32 +9,23 @@ import org.openqa.selenium.chrome.ChromeDriver;
  */
 public class LoginPassword {
 
-    public LoginPassword(){
+    public LoginPassword() throws InterruptedException {
 
-        try {
-            WebDriver driver;
-            System.setProperty("webdriver.chrome.driver", "/Users/olga-UI/Documents/Workplase_Selenium/driver/chromedriver");
-            driver = new ChromeDriver();
-            String baseURL = "https://www.netflix.com/";
-            driver.get(baseURL);
-
-            driver.findElement(By.xpath("//a[@class='authLinks signupBasicHeader']")).click();
-            Thread.sleep(2000);
+        WebDriver driver;
+        System.setProperty("webdriver.chrome.driver", "D:\\Workplace\\chromedriver.exe");
+        driver = new ChromeDriver();
+        String baseURL = "http://localhost/litecart/admin/login.php";
+        driver.get(baseURL);
 
 
-            driver.findElement(By.id("id_userLoginId")).sendKeys("admin@gmail.com");
-            Thread.sleep(2000);
+        driver.findElement(By.name("username")).sendKeys("admin");
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin");
+        Thread.sleep(2000);
+        driver.findElement(By.name("login")).click();
 
-            driver.findElement(By.name("password")).sendKeys("12qwxax");
-            Thread.sleep(2000);
-
-            driver.findElement(By.xpath("//button[contains(text(),'Sign In')]")).click();
-
-            Thread.sleep(2000);
-            driver.quit();
-        }catch(InterruptedException e){
-
-        }
+        Thread.sleep(2000);
+        driver.quit();
 
     }
 }
