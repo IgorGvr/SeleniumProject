@@ -12,7 +12,7 @@ public class TestCapabilities {
     public void startTest() {
 
        WebDriver driver;
-       System.setProperty("webdriver.chrome.driver","/Users/olga-UI/Documents/Workplase_Selenium/driver/chromedriver");
+       //System.setProperty("webdriver.chrome.driver","/Users/olga-UI/Documents/Workplase_Selenium/driver/chromedriver");
 
      /*   // старая схема
         FirefoxOptions options = new FirefoxOptions().setLegacy(true);

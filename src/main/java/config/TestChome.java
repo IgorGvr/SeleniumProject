@@ -10,7 +10,7 @@ public class TestChome {
 
 
 
-    public void testChrome() throws InterruptedException{
+   /* public void testChrome() throws InterruptedException{
 
         System.setProperty("webdriver.chrome.driver","/Users/olga-UI/Documents/Workplase_Selenium/driver/chromedriver");
         WebDriver driver = new ChromeDriver();
@@ -19,5 +19,5 @@ public class TestChome {
         driver.quit();
 
 
-    }
+    }*/
 }

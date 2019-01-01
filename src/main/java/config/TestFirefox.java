@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class TestFirefox {
 
-     public void testFirefox() throws InterruptedException{
+     /*public void testFirefox() throws InterruptedException{
 
         WebDriver driver;
         System.setProperty("webdriver.gecko.driver","/Users/olga-UI/Documents/Workplase_Selenium/driver/geckodriver");
@@ -20,5 +20,5 @@ public class TestFirefox {
         Thread.sleep(2000);
         driver.quit();
 
-    }
+    }*/
 }
